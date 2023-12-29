@@ -61,3 +61,5 @@ app.get("/todos/", async (request, response) => {
       break;
   }
 });
+
+GET http://localhost:3000/todos/?status=TO%20DO
